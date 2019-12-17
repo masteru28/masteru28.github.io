@@ -105,6 +105,8 @@ p-blue {
 
 /*------------- LINKS --------------*/
 
+
+.lang-item:visited, .lang-item:link,
 .menu-item:link,
 .menu-item:visited {
     color: black;
@@ -121,16 +123,23 @@ p-blue {
 
 .footer-item:link, .footer-item:visited {
     color:black;
-    transition:color .5s;
+    transition:color .3s;
     transition-timing-function: ease-in-out;
 }
 
-.menu-item:hover, .footer-item:hover {
+.menu-item:hover, .footer-item:hover, .bold-hover2:hover {
     color: #D156B0;
-
 
 }
 
+.bold-hover {
+    font-weight: bold;
+}
+
+
+.bold-hover2:hover{
+    font-weight: 800;
+}
 /*HEADER*/
 
 /*------------- LOGO --------------*/
@@ -209,6 +218,7 @@ header {
     flex-direction: column;
     align-items: center;
     top: 0;
+    opacity:0.75;
 }
 .theline {
     padding-top: 400px;
