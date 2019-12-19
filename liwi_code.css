@@ -1,4 +1,4 @@
-/*--------------- LAST UPATE: 16.12.19 ------------ 
+/*--------------- LAST UPATE: 18.12.19 ------------ 
 
 
 /*Fonts used*/
@@ -583,7 +583,8 @@ footer {
 }
 
 .footer-social2:hover {
-    background-image: linear-gradient(30deg, #833AB4, #FD1D1D,#FCAF45);
+    background-color: #FD1D1D;
+/*    background-image: linear-gradient(30deg, #833AB4, #FD1D1D,#FCAF45);*/
 }
 
 .footer-social3:hover {
@@ -1219,9 +1220,6 @@ footer {
         margin-top:-50px;
     }
 
-    #hero-img {
-        display: none;
-    }
 
     #download {
         background-color: #BA53FF;
@@ -1254,7 +1252,8 @@ footer {
         align-content: center;
         align-items: center;
     }
-
+    
+    
     #content1-img,
     #content2-img2,
     #content2-img1,
@@ -1265,6 +1264,20 @@ footer {
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 20px;
+    }
+    
+    #hero-img{
+        top:80px;
+        height:550px;
+        width:550px;
+        min-width: 550px;
+        left:160px;
+        position:fixed;
+        z-index:-2;
+        opacity: 0.2;
+        overflow: hidden;
+/*        display: none;*/
+
     }
 
     #content1-img{
@@ -1345,6 +1358,11 @@ footer {
     .footer-social1, .footer-social2, .footer-social3, .footer-social4 {
         width: 100%;
         margin-left:0px;
+        background-color:transparent;
+    }
+    
+     .footer-social1:hover, .footer-social2:hover, .footer-social3:hover, .footer-social4:hover {
+        background-color:transparent;
     }
 
     #hidden-mobile {
